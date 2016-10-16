@@ -8,7 +8,6 @@ TODO
 - Ability to scroll up and down the history of expressions.
 - Ability to use Ctrl+a, Ctrl+e, left arrow and right arrow to change
   cursor position within the current expression.
-- Print result with thousand separator.
 """
 
 import sys
