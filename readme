@@ -1,0 +1,7 @@
+thousandsepcalc - Thousand Separator Calculator
+
+"thousandsepcalc" is a command line calculator which supports specifying
+number with thousand separator.
+
+I have a hard time using "bc" or "python interactive shell" as it does
+not understand thounsand separator.
