@@ -4,10 +4,6 @@
 This is the "thousandsepcalc" module and it is the main module which
 is called from the command line to start the calculator.
 
-AUTHOR: @dragontortoise
-Version: 1.0
-Date: October 16, 2016 at 10:02 PM ICT
-
 TODO
 - Ability to scroll up and down the history of expressions.
 - Ability to use Ctrl+a, Ctrl+e, left arrow and right arrow to change
