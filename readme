@@ -10,3 +10,9 @@ number with thousand separator.
 I have a hard time using "bc" or "python interactive shell" as it does
 not understand thousand separator.
 
+Examples:
+  thousandsepcalc.py
+  1,200.65+2+(13-12,000)
+  -10,784.35
+
+  
