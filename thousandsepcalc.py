@@ -20,5 +20,5 @@ def remove_comma(s):
   return s.replace(',', '')
 
 for line in sys.stdin:
-  print("{:,}".format(eval(remove_comma(line))))
+  print("{:,.2f}".format(eval(remove_comma(line))))
 
