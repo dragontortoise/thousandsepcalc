@@ -19,6 +19,22 @@ def remove_comma(s):
 
   return s.replace(',', '')
 
+import argparse
+
+parser = argparse.ArgumentParser(
+  description='thousand separator calculator')
+parser.add_argument('--nosep', dest='no_sep', const='y',
+  default='n', action='store_const', help='omit thousand separator')
+args = parser.parse_args()
+
 for line in sys.stdin:
-  print("{:,.2f}".format(eval(remove_comma(line))))
+  try:
+    result = eval(remove_comma(line))
+    if args.no_sep == 'y':
+      print("{:.2f}".format(result))
+    else:
+      print("{:,.2f}".format(result))
+  except:
+    print("Warning! You enter an incorrect formula.")
+    pass
 
